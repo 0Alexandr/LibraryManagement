@@ -1,0 +1,16 @@
+﻿<Window x:Class="LibraryManagement.AddGenreDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Новый жанр" Height="284" Width="364"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <StackPanel Margin="20">
+        <TextBlock Text="Название жанра:" FontWeight="Bold"/>
+        <TextBox x:Name="NameBox" Margin="0,5,0,10"/>
+
+        <TextBlock Text="Описание:" FontWeight="Bold"/>
+        <TextBox x:Name="DescriptionBox" Margin="0,5,0,15" Height="50" 
+                 TextWrapping="Wrap" AcceptsReturn="True"/>
+
+        <Button Content="Добавить" Height="35" Click="Add_Click" Background="#E1E1E1"/>
+    </StackPanel>
+</Window>
