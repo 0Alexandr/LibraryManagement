@@ -21,14 +21,14 @@
                 <TextBlock Text="Количество на складе:" FontWeight="Bold"/>
                 <TextBox x:Name="CountTextBox" Margin="0,5,0,10"/>
 
-                <TextBlock Text="Авторы (зажмите Ctrl для выбора нескольких):" FontWeight="Bold"/>
+                <TextBlock Text="Авторы:" FontWeight="Bold"/>
                 <ListBox x:Name="AuthorsListBox" 
                      Height="100" 
                      Margin="0,5,0,10" 
                      DisplayMemberPath="FullName" 
                      SelectionMode="Multiple"/>
 
-                <TextBlock Text="Жанры (зажмите Ctrl для выбора нескольких):" FontWeight="Bold"/>
+                <TextBlock Text="Жанры:" FontWeight="Bold"/>
                 <ListBox x:Name="GenresListBox" 
                      Height="80" 
                      Margin="0,5,0,10" 
